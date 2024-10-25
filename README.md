@@ -15,6 +15,7 @@ Permitir la adición de nuevos contactos y la visualización de todos los contac
 ## Salida esperada:
 
 Contact Directory:
+
 First Name | Last Name | Organization  | Phone | Address
 Alice      | Smith     | TechCorp      | 12345 | Street 1, City A
 Bob        | Johnson   | Innovate Inc. | 67890 | Avenue 2, City B
