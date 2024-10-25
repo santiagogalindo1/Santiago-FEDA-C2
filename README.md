@@ -16,7 +16,9 @@ Permitir la adición de nuevos contactos y la visualización de todos los contac
 
 Contact Directory:
 
-First Name | Last Name | Organization  | Phone | Address
-Alice      | Smith     | TechCorp      | 12345 | Street 1, City A
-Bob        | Johnson   | Innovate Inc. | 67890 | Avenue 2, City B
-Carol      | Brown     | Creative LLC  | 54321 | Street 3, City C
+| Nombre   | Apellido | Organización   | Teléfono | Dirección            |
+|----------|----------|----------------|----------|----------------------|
+| Alice    | Smith    | TechCorp       | 12345    | Calle 1, Ciudad A    |
+| Bob      | Johnson  | Innovate Inc.  | 67890    | Avenida 2, Ciudad B  |
+| Carol    | Brown    | Creative LLC   | 54321    | Calle 3, Ciudad C    |
+
