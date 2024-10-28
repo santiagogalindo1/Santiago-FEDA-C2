@@ -1,21 +1,23 @@
+from phone.contact import Contact  # Asegúrate de que la ruta sea correcta según tu estructura de carpetas
+
 class Directory:
     """
-    Clase Directorio:
-
-    Atributos:
-    contactos: Matriz que contiene todos los contactos, incluyendo la primera fila como encabezado.
-
-    Métodos:
-    __init__: Inicializa la matriz contactos con la primera fila como encabezado de atributos.
-    agregar_contacto: Agrega un nuevo contacto a la matriz.
-    listar_contactos: Muestra todos los contactos en la matriz, incluyendo el encabezado.
+    Clase Directorio que gestiona los contactos.
     """
 
     def __init__(self):
-        pass
+        # Inicializa la matriz con el encabezado
+        self.contactos = [
+            ["Nombre", "Apellido", "Organización", "Teléfono", "Dirección"]
+        ]
 
-    def add_contact(self):
-        pass
+    def add_contact(self, nombre, apellido, organizacion, telefono, direccion):
+        """Agrega un nuevo contacto a la matriz."""
+        nuevo_contacto = Contact(nombre, apellido, organizacion, telefono, direccion)
+        self.contactos.append(nuevo_contacto.obtener_datos())
 
     def list_contacts(self):
-        pass
+        """Muestra todos los contactos en la matriz, incluyendo el encabezado."""
+        for fila in self.contactos:
+            print("|", " | ".join(fila), "|")
+        print("|" + "----------|" * len(self.contactos[0]))
